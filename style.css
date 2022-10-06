@@ -1,0 +1,113 @@
+body {  
+    background-image: Linear-gradient(to right,rgb(59, 6, 43),rgb(124, 47, 102), rgb(165, 67, 137));
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container-1{
+    background-color:rgb(59, 6, 43);
+    border-color:rgb(83, 33, 68);
+    box-shadow: -8px -8px rgb(41, 4, 30);
+    position: absolute;
+    top: 4%;
+    padding:1%;
+    width:70%;
+    
+}
+.section-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+.container-2{
+    background-color:rgb(63, 7, 45);
+    color:rgb(165, 67, 137);
+    border-color:rgb(83, 33, 68);
+    box-shadow: -8px -8px rgb(41, 4, 30);
+    position: absolute;
+    width:80%;
+    height:65%;
+    text-align: center;
+   }
+
+
+.Effect{
+    animation: color-animation 6s linear infinite;
+  }
+
+  .Effect:hover{
+
+    animation-play-state: paused;
+    font-weight: 700;
+  }
+  .title{
+    font-family:monospace;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+}
+
+.title-1 {
+    --color-1:rgb(34, 11, 22);
+    --color-2:rgb(94, 6, 47);
+    --color-3: rgb(219, 109, 219);
+    --color-4:rgb(161, 98, 140);
+}
+
+.title-2{
+    --color-1:rgb(94, 6, 47);
+    --color-2:rgb(34, 11, 22);
+    --color-3: rgb(161, 98, 140);
+    --color-4:rgb(219, 109, 219);
+}
+.title-3{
+    --color-1:rgb(34, 11, 22);
+    --color-2:rgb(94, 6, 47);
+    --color-3: rgb(219, 109, 219);
+    --color-4:rgb(161, 98, 140);
+}
+.title-4{
+    --color-1:rgb(94, 6, 47);
+    --color-2:rgb(34, 11, 22);
+    --color-3: rgb(161, 98, 140);
+    --color-4:rgb(219, 109, 219);
+}
+.title-5{
+    --color-1:rgb(34, 11, 22);
+    --color-2:rgb(94, 6, 47);
+    --color-3: rgb(219, 109, 219);
+    --color-4:rgb(161, 98, 140);}
+
+@keyframes color-animation{
+    0%    {color: var(--color-1)}
+    25%   {color: var(--color-2)}
+    35%   {color: var(--color-3)}
+    45%   {color: var(--color-4)}
+    55%   {color: var(--color-1)}
+    65%   {color: var(--color-2)}
+    75%   {color: var(--color-3)}
+    85%   {color: var(--color-4)}
+    100%  {color: var(--color-1)}
+  }
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
